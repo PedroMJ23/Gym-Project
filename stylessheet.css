@@ -45,7 +45,6 @@ body {
 
 /* .nav_input:checked+.nav_menu {
     /* background: tomato; 
-
 } */
 
 /* .nav_menu {} */
@@ -78,7 +77,7 @@ body {
 .nav_menu {
     display: grid;
     grid-auto-flow: column;
-    gap: 3em;
+    gap: 2.5em;
 }
 
 .nav_item {
@@ -224,6 +223,7 @@ body {
     display: flex;
     flex-direction: column;
     gap: 10px;
+    
 }
 
 .gym_info-text h3 {
@@ -395,7 +395,7 @@ body {
     flex-wrap: wrap;
     padding: 10px;
     gap: 15px;
-    
+
 
 }
 
@@ -413,7 +413,7 @@ body {
     padding: 15px;
     background: radial-gradient(circle, rgba(20, 20, 19, 1) 0%, rgba(141, 147, 148, 1) 48%, rgba(203, 203, 207, 1) 100%);
     border-radius: 15px;
-    
+
 }
 
 .clases_varias-carta img {
@@ -433,7 +433,7 @@ body {
     align-items: center;
     justify-content: space-between;
     padding: 10px;
-   
+
 }
 
 .formYUbicacion {
