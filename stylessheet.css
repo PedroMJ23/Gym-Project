@@ -31,7 +31,8 @@ html {
 #sobrenostros_id {
     scroll-margin-top: 80px;
 }
-#sabermas{
+
+#sabermas {
     scroll-margin-top: 80px;
 }
 
@@ -255,9 +256,10 @@ body {
     cursor: pointer;
 
 }
-.membresia a{
+
+.membresia a {
     color: black;
-    
+
 }
 
 .membresia:hover {
@@ -285,9 +287,16 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    
 
 
+
+}
+.instructores_div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
 }
 
 .carta_instructores {
@@ -295,6 +304,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    border: solid 1px black;
+    border-radius: 20px;
 
 }
 
@@ -307,8 +318,14 @@ body {
 }
 
 .carta_img {
+    /* min-height:150px ;
+    max-height: 350px ; */
     height: 350px;
+    /* min-width: 200px;
+    max-width: 400px; */
     width: 400px;
+    border-radius: 20px;
+    padding: 5px;
 
 }
 
@@ -477,7 +494,8 @@ body {
     font-weight: 700;
     cursor: pointer;
 }
-#consulta_btn:hover{
+
+#consulta_btn:hover {
     background-color: var(--color-light-grey);
     border: none;
     color: black;
@@ -532,7 +550,7 @@ body {
     background-size: contain;
     background-origin: content-box;
     min-height: 900px;
-   
+
 }
 
 .formRegistro {
@@ -559,7 +577,7 @@ body {
     border: solid black 1px;
     border-radius: 10px;
     gap: 25px;
-    
+
 
 
 }
@@ -625,7 +643,8 @@ body {
     /* background-color: var(--color-light-grey); */
     border: solid red 3px;
 }
-.img_info{
+
+.img_info {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -633,8 +652,8 @@ body {
     gap: 10px;
 
 }
-.img_info img{
+
+.img_info img {
     padding: 5px;
     border-radius: 50px;
 }
-
