@@ -528,9 +528,8 @@ body {
     background-position: center;
     background-size: contain;
     background-origin: content-box;
+    min-height: 900px;
    
-
-
 }
 
 .formRegistro {
@@ -623,3 +622,16 @@ body {
     /* background-color: var(--color-light-grey); */
     border: solid red 3px;
 }
+.img_info{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+
+}
+.img_info img{
+    padding: 5px;
+    border-radius: 50px;
+}
+
