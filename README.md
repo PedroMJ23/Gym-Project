@@ -1,4 +1,4 @@
-# Gym-Proyect
+# Gym-Project
 Este es el pryecto final de la parte de Diseño Web realizada en y para Nucba.
 
 Sólo con HTML y CSS.
