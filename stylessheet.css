@@ -1,0 +1,625 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=DynaPuff:wght@400;600;700&family=Roboto:wght@300;400;900&display=swap');
+
+:root {
+    --color-grey: #17202A;
+    --color-light-grey: #808B96;
+    --color-dark-grey: #171718;
+    --color-text-grey: #d1d8e0;
+
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    text-decoration-style: none;
+    list-style: none;
+    /* font-family: 'Anton', sans-serif; */
+    font-family: 'Roboto', sans-serif;
+
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#clases_id {
+    scroll-margin-top: 80px;
+}
+
+#sobrenostros_id {
+    scroll-margin-top: 80px;
+}
+
+body {
+
+    font-family: 'Roboto', sans-serif;
+
+
+}
+
+/* .nav_input:checked+.nav_menu {
+    /* background: tomato; 
+
+} */
+
+/* .nav_menu {} */
+
+.nav {
+    background: #000;
+    height: 80px;
+    color: #fff;
+    width: 100%;
+    position: fixed;
+    z-index: 50;
+}
+
+.nav_container {
+    display: flex;
+    height: 100%;
+    width: 90%;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.nav_logo {
+    font-size: 1.em;
+    font-weight: 900;
+
+}
+
+.nav_menu {
+    display: grid;
+    grid-auto-flow: column;
+    gap: 3em;
+}
+
+.nav_item {
+    color: #fff;
+    text-decoration: none;
+    --clippy: polygon(0 0, 0 0, 0 100%, 0% 100%);
+
+}
+
+.nav_item::after {
+    content: "";
+    display: block;
+    background: #fff;
+    width: 90%;
+    margin-top: 3px;
+    height: 3px;
+    clip-path: var(--clippy);
+    transition: clip-path .3s;
+}
+
+.nav_item:hover {
+    --clippy: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+}
+
+.nav_label,
+.nav_input {
+    display: none;
+}
+
+.iconoYLogo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+
+}
+
+.lion {
+
+    height: 80px;
+    width: 80px;
+    color: white;
+    cursor: pointer;
+}
+
+.comenzar {
+    background: url(./assets/gym-img.jpg);
+    /* background-color: var(--color-dark-grey); */
+    height: 1100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    /* margin-left: auto;
+    margin-right: auto; */
+    gap: 25px;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    /* position: relative; */
+}
+
+.comenzar p {
+
+    font-size: 30px;
+    color: var(--color-light-grey);
+
+
+
+}
+
+.comenzar h1 {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+    font-size: 60px;
+
+}
+
+.comenzar_btn {
+    display: flex;
+    gap: 5px;
+
+}
+
+.comenzar_btn a {
+    border: 1px solid orange;
+    border-radius: 5px;
+    padding: 5px;
+    color: white;
+}
+
+.comenzar_btn a:hover {
+    background-color: orange;
+    color: var(--color-grey);
+}
+
+
+.gym_info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background: var(--color-dark-grey);
+
+}
+
+.gym_info-div1 {
+    width: 40%;
+    background: var(--color-dark-grey);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 50px;
+
+
+}
+
+.middle hr {
+    height: 300px;
+    width: 1px;
+}
+
+.gym_info-div2 {
+    width: 40%;
+    background: var(--color-dark-grey);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 50px;
+
+}
+
+.gym_info-text {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.gym_info-text h3 {
+    font-size: 30px;
+    padding: 15px 0px;
+}
+
+.gym_info-text p {
+    font-size: 20px;
+    padding: 5px;
+
+}
+
+.gym_info-text span {
+    color: var(--color-text-grey);
+    padding: 5px;
+}
+
+.membresia {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    /* border: 1px solid orange; */
+    background: white;
+    border-radius: 15px;
+    padding: 5px;
+    color: black;
+    font-weight: 700;
+    cursor: pointer;
+
+}
+.membresia a{
+    color: black;
+    
+}
+
+.membresia:hover {
+    background: orange;
+}
+
+.sobrenosotros {
+    /* margin: auto; */
+    /* height: 900px; */
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 10px 15px;
+    gap: 15px;
+
+
+
+}
+
+.descripcion {
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+
+
+}
+
+.carta_instructores {
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.carta_instructores:hover {
+    scale: 1.025;
+    transition: 1.025s;
+    position: relative;
+    z-index: 10;
+
+}
+
+.carta_img {
+    height: 350px;
+    width: 400px;
+
+}
+
+.carta_row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 25px;
+    padding: 5px 15px;
+}
+
+.carta_iconos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 5px 5px;
+}
+
+.navicon2 {
+    height: 40px;
+    width: 40px;
+    padding: 5px 5px;
+    cursor: pointer;
+}
+
+.clases {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    padding: 15px 0px 15px 0px;
+    flex-wrap: wrap;
+    margin-top: 15px;
+
+}
+
+.clases_titulo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 15px;
+    padding: 10px;
+
+    border-radius: 5px;
+    font-size: 25px;
+
+
+
+}
+
+.clases_titulo h3 {
+    padding: 10px;
+    border: 2px solid black;
+    font-size: 30px;
+    border-radius: 10px;
+
+}
+
+.clases_varias {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    flex-wrap: wrap;
+    padding: 10px;
+    gap: 15px;
+
+
+
+
+}
+
+.clases_varias-carta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 25%;
+    /* min-height: 400px; */
+    min-width: 350px;
+    max-height: max-content;
+    max-width: max-content;
+    font-size: 20px;
+    padding: 15px;
+    background: radial-gradient(circle, rgba(20, 20, 19, 1) 0%, rgba(141, 147, 148, 1) 48%, rgba(203, 203, 207, 1) 100%);
+    border-radius: 15px;
+}
+
+.clases_varias-carta img {
+    height: 100%;
+    width: 100%;
+    min-height: 300px;
+    max-height: max-content;
+    max-width: max-content;
+
+}
+
+.varias_box {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    /* margin-left: 80px; */
+
+
+}
+
+.formYUbicacion {
+    width: 100%;
+    background-color: beige;
+    padding: 15px;
+    gap: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.form {
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; */
+    width: 50%;
+    min-width: min-content;
+    max-width: 500px;
+    font-size: 25px;
+    flex-wrap: wrap;
+    gap: 15px;
+    padding: 15px;
+}
+
+.form1 {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 15px;
+    border-radius: 5px;
+
+}
+
+.form1 textarea {
+    width: 100%;
+    height: 200px;
+    resize: none;
+
+}
+
+.form_btn {
+    width: 100%;
+    height: 40px;
+    background: var(--color-dark-grey);
+    border-radius: 15px;
+    padding: 5px;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    cursor: pointer;
+}
+#consulta_btn:hover{
+    background-color: var(--color-light-grey);
+    border: none;
+    color: black;
+
+}
+
+.ubicacion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+    max-width: 500px;
+    height: 100%;
+
+
+}
+
+.controls {
+    width: 100%;
+    padding: 10px;
+
+}
+
+.mapouter {
+    position: relative;
+    text-align: right;
+    width: 100%;
+    height: 100%;
+
+}
+
+.gmap_canvas {
+    overflow: hidden;
+    background: none !important;
+    width: 100%;
+    height: 100%;
+
+
+}
+
+.gmap_iframe {
+    width: 100% !important;
+    height: 100% !important;
+}
+
+
+.mainregistro {
+    background: url(./assets/lion5.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    background-origin: content-box;
+   
+
+
+}
+
+.formRegistro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: red; */
+    gap: 10%;
+    flex-wrap: wrap;
+
+}
+
+.formdeRegistro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    margin: 150px 25px 200px 25px;
+    min-height: 400px;
+    min-width: 300px;
+    padding: 20px;
+    color: black;
+    border: solid black 1px;
+    border-radius: 10px;
+    gap: 25px;
+    
+
+
+}
+
+.formdeRegistro a {
+    color: red;
+    font-style: italic;
+}
+
+.terminosycondiciones {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+#formregistro:hover {
+    background-color: var(--color-light-grey);
+    border: none;
+}
+
+
+
+.footer_class {
+    background-color: var(--color-dark-grey);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px;
+    gap: 20px;
+    margin-bottom: 0%;
+
+
+}
+
+.footer_class-img {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 80%;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.footer_class img {
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+    background-color: white;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.footer_class img:nth-child(3) {
+    padding: 5px;
+    border-radius: 50px;
+
+}
+
+.footer_class img:hover {
+    /* background-color: var(--color-light-grey); */
+    border: solid red 3px;
+}
