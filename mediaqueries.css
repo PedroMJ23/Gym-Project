@@ -107,13 +107,14 @@
         padding: 0px 0px;
         align-items: center;
         justify-content: center;
-
+        
     }
 
     .clases_varias-carta img {
-        height: 150px;
-        width: 200px;
-        display: none;
+        height: 250px;
+        width: 300px;
+        padding: 10px 0px;
+        border-radius: 25px;
     }
 
     .varias_box {
@@ -121,6 +122,7 @@
         justify-content: center;
         align-items: center;
         flex-direction: column;
+        border: solid red 3px;
 
     }
 

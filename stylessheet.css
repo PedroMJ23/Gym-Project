@@ -282,7 +282,9 @@ body {
 }
 
 .descripcion {
-    width: 25%;
+    min-width: 25%;
+    max-width: 400px;
+    /* width: 25%; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -291,7 +293,8 @@ body {
 
 
 }
-.instructores_div{
+
+.instructores_div {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -318,11 +321,7 @@ body {
 }
 
 .carta_img {
-    /* min-height:150px ;
-    max-height: 350px ; */
     height: 350px;
-    /* min-width: 200px;
-    max-width: 400px; */
     width: 400px;
     border-radius: 20px;
     padding: 5px;
@@ -372,7 +371,6 @@ body {
     flex-direction: column;
     gap: 15px;
     padding: 10px;
-
     border-radius: 5px;
     font-size: 25px;
 
@@ -397,9 +395,7 @@ body {
     flex-wrap: wrap;
     padding: 10px;
     gap: 15px;
-
-
-
+    
 
 }
 
@@ -417,6 +413,7 @@ body {
     padding: 15px;
     background: radial-gradient(circle, rgba(20, 20, 19, 1) 0%, rgba(141, 147, 148, 1) 48%, rgba(203, 203, 207, 1) 100%);
     border-radius: 15px;
+    
 }
 
 .clases_varias-carta img {
@@ -425,6 +422,7 @@ body {
     min-height: 300px;
     max-height: max-content;
     max-width: max-content;
+    border-radius: 15px;
 
 }
 
@@ -435,9 +433,7 @@ body {
     align-items: center;
     justify-content: space-between;
     padding: 10px;
-    /* margin-left: 80px; */
-
-
+   
 }
 
 .formYUbicacion {
