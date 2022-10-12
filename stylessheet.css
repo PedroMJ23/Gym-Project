@@ -139,6 +139,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
 
+
     /* position: relative; */
 }
 
@@ -223,7 +224,7 @@ body {
     display: flex;
     flex-direction: column;
     gap: 10px;
-    
+
 }
 
 .gym_info-text h3 {
@@ -627,6 +628,7 @@ body {
     background-color: white;
     border-radius: 25px;
     cursor: pointer;
+    
 }
 
 .footer_class img:nth-child(3) {
@@ -636,7 +638,6 @@ body {
 }
 
 .footer_class img:hover {
-    /* background-color: var(--color-light-grey); */
     border: solid red 3px;
 }
 
