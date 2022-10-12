@@ -110,6 +110,7 @@
 
     .clases_varias-carta {
         width: 60%;
+        min-width: 250px;
         background: var(--color-light-grey);
         padding: 0px 0px;
         align-items: center;
@@ -226,6 +227,27 @@
         color: white;
         font-size: 20px;
     }
+    .gym_info {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        max-width: max-content;
+
+    }
+    .gym_info-div1,.gym_info-div2 {
+        width: 100%;
+        max-width: 800px;
+    }
+    .middle{
+        display: none ;
+       
+    }
+    .membresia{
+        max-width: 400px;
+    }
+
+   
 
     .clases {
         justify-content: center;
